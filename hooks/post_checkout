@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 [[ "${DOCKER_TAG}" == "latest" ]] && \
     { echo 'qemu-user-static: Download not required for this arch'; exit 0; }
